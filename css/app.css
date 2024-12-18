@@ -328,6 +328,7 @@
   height: 90%;
   max-height: 90%;
   border-left: 4px solid white;
+  border-radius: 8px;
   background-color: #fafafa;
   grid-template-columns: 1fr 2fr;
   gap: 1rem;
@@ -347,6 +348,8 @@
 .catalogo__productoImg {
   width: 100%;
   height: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 .catalogo__infoBox {
   position: relative;
