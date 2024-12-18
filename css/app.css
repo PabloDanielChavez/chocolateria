@@ -5,6 +5,7 @@
 }
 @media (min-width: 768px) {
   .header {
+    position: sticky;
     flex-direction: row;
     padding: 0;
   }
@@ -19,7 +20,7 @@
 @media (min-width: 768px) {
   .header__grid {
     flex-direction: row;
-    padding: 1% 0;
+    padding: 0.2rem 0;
   }
 }
 .header__logo {
