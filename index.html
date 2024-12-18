@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Chocolateria</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="header__grid">
+            <div class="header__logo">
+                <img class="header__img" src="img/logo5.png" alt="imagen">
+            </div>
+            <nav class="header__nav">
+                <input class="header__btn activo" type="button" value="inicio">
+                <input class="header__btn" type="button" value="Nosotros">
+                <input class="header__btn" type="button" value="Equipo">
+            </nav>
+        </div>
+    </header>
+    <section id="bienvenida" class="bienvenida">
+        <div class="bienvenida__grid">
+            <div class="bienvenida__logo">
+                <img class="bienvenida__img" src="img/logo5.png" alt="imagen">
+            </div>
+            <h1 class="bienvenida__h1">Chocolates</h2>
+            <p class="bienvenida__parrafo">Bienvenidos a nuestra chocolatería boutique, un espacio donde podrás disfrutar de productos artesanales de la más alta calidad. Aquí, cada pieza de chocolate es elaborada con amor y dedicación, pensada especialmente para quienes comparten nuestra pasión por el chocolate.</p>
+            <input class="bienvenida__btn" type="button" value="LEER">
+        </div>
+    </section>
+    <section id="sobreMi" class="sobreMi">
+        <div class="sobreMi__grid">
+            <article class="sobreMi__boxImg">
+                <img class="sobreMi__img" src="img/bienvenido2.png" alt="" class="sobreMi__img">
+            </article>
+            <article class="sobreMi__box">
+                <div class="sobreMi__box-flex">
+                    <h2 class="sobreMi__h2">Mision y valores</h2>
+                    <h3 class="sobreMi__h3">Misión</h3>
+                    <p class="sobreMi__parrafo">Queremos ser ese espacio donde uno puede disfrutar de un producto cuidado, aquel al que uno vuelve y recomienda, con el que uno se pueda identificar. Ser un lugar modelo en la región, que la marca sea sinónimo de confianza y categoría. Convertirnos en referentes, para opciones de regalos empresariales o personales. Buscamos desarrollarnos, siempre manteniendo las premisas de lo artesanal y calidad.</p>
+                    <h3 class="sobreMi__h3">Visión</h3>
+                    <p class="sobreMi__parrafo">Somos una chocolatería boutique avocada al cliente y su pasión por el chocolate. Cuidamos cada detalle y logramos que cada pieza templada y elaborada a mano sea única. Usando materia prima noble y pensando en el gusto de quienes nos acompañan, conceptualizamos un producto final ideado para quien ama el chocolate como nosotros, porque creemos que nuestra ciudad necesita un producto de excelente calidad, cuidado desde su origen hasta que llega al consumidor, que nos coloque en el plano nacional.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section id="catalogo" class="catalogo">
+        <div class="catalogo__flexPrincipal">
+            <article class="catalogo__bienvenida">
+                <h2 class="catalogo__h2 titulo">Nuestro Menú</h2>
+                <h3 class="catalogo__h3">PLATOS CREMOSOS</h3>
+                <p class="catalogo__parrafo">Te damos la bienvenida a un mundo de delicias artesanales, donde cada bocado es una celebración de la calidad y la dedicación. En nuestra chocolatería, podrás disfrutar de una exquisita selección de chocolates, infusiones y acompañamientos, todos elaborados con el mayor cuidado y amor. Veni y déjate seducir por el sabor y la pasión que ponemos en cada creación.</p>
+            </article>
+            <div class="catalogo__grid">
+                <article class="catalogo__productoBox">
+                    <img id="productoImg" class="catalogo__productoImg" src="img/1_acompañamientos.png" alt="">
+                    <div class="catalogo__infoBox">
+                        <header class="catalogo__header">
+                            <h4 class="catalogo__h4">Acompañamientos</h4>
+                            <span class="catalogo__span">$3500</span>
+                        </header>
+                        <p class="catalogo__parrafoProducto">Churros, medialunas congeladas y panes de tipo lactal (tradicional e integral). Acompañados de mermeladas caseras, queso crema y dulce de leche.</p>
+                        <footer class="catalogo__footer">
+                            <button class="catalogo__btn" type="button">Ordenar</button>
+                        </footer>
+                    </div>
+                </article>
+                <article class="catalogo__productoBox">
+                    <img id="productoImg" class="catalogo__productoImg" src="img/2_Desayunos y Meriendas.webp" alt="">
+                    <div class="catalogo__infoBox">
+                        <header class="catalogo__header">
+                            <h4 class="catalogo__h4">Desayunos y Meriendas</h4>
+                            <span class="catalogo__span">$6000</span>
+                        </header>
+                        <p class="catalogo__parrafoProducto">Combinaciones de infusiones con tostadas, medialunas o churros. Incluye cualquier combinación de chocolate o infusión con cualquier acompañamiento.</p>
+                        <footer class="catalogo__footer">
+                            <button class="catalogo__btn" type="button">Ordenar</button>
+                        </footer>
+                    </div>
+                </article>
+                <article class="catalogo__productoBox">
+                    <img id="productoImg" class="catalogo__productoImg" src="img/3_Tabletas de Chocolate.webp" alt="">
+                    <div class="catalogo__infoBox">
+                        <header class="catalogo__header">
+                            <h4 class="catalogo__h4">Tabletas de Chocolate</h4>
+                            <span class="catalogo__span">$12000</span>
+                        </header>
+                        <p class="catalogo__parrafoProducto">Chocolate con leche y maní tostado o chocolate semiamargo con almendras garrapiñadas, presentados en caja con etiqueta personalizable.</p>
+                        <footer class="catalogo__footer">
+                            <button class="catalogo__btn" type="button">Ordenar</button>
+                        </footer>
+                    </div>
+                </article>
+                <article class="catalogo__productoBox">
+                    <img id="productoImg" class="catalogo__productoImg" src="img/4_Mix de Barras Alpinas.webp" alt="">
+                    <div class="catalogo__infoBox">
+                        <header class="catalogo__header">
+                            <h4 class="catalogo__h4">Mix de Barras Alpinas
+                            </h4>
+                            <span class="catalogo__span">$12500</span>
+                        </header>
+                        <p class="catalogo__parrafoProducto">Barras en cuatro presentaciones: blanco con oreo, semiamargo con castañas y naranja, marroc y chocoleche con coco tostado, en caja deslizable.</p>
+                        <footer class="catalogo__footer">
+                            <button class="catalogo__btn" type="button">Ordenar</button>
+                        </footer>
+                    </div>
+                </article>
+                <article class="catalogo__productoBox">
+                    <img id="productoImg" class="catalogo__productoImg" src="img/5_Trufas de Chocolate.webp" alt="">
+                    <div class="catalogo__infoBox">
+                        <header class="catalogo__header">
+                            <h4 class="catalogo__h4">Trufas de Chocolate</h4>
+                            <span class="catalogo__span">$8500</span>
+                        </header>
+                        <p class="catalogo__parrafoProducto">Trufas de chocolate blanco y limón, bañadas en chocolate semiamargo, en caja cerrada de 8 unidades.</p>
+                        <footer class="catalogo__footer">
+                            <button class="catalogo__btn" type="button">Ordenar</button>
+                        </footer>
+                    </div>
+                </article>
+                <article class="catalogo__productoBox">
+                    <img id="productoImg" class="catalogo__productoImg" src="img/6_Pastelería.webp" alt="">
+                    <div class="catalogo__infoBox">
+                        <header class="catalogo__header">
+                            <h4 class="catalogo__h4">Pastelería</h4>
+                            <span class="catalogo__span">$3500</span>
+                        </header>
+                        <p class="catalogo__parrafoProducto">Brownie y Crumble de frutos rojos.</p>
+                        <footer class="catalogo__footer">
+                            <button class="catalogo__btn" type="button">Ordenar</button>
+                        </footer>
+                    </div>
+                </article>
+                <article class="catalogo__productoBox">
+                    <img id="productoImg" class="catalogo__productoImg" src="img/7_Refuerzo Verano.png" alt="">
+                    <div class="catalogo__infoBox">
+                        <header class="catalogo__header">
+                            <h4 class="catalogo__h4">Refuerzo Verano</h4>
+                            <span class="catalogo__span">$4500</span>
+                        </header>
+                        <p class="catalogo__parrafoProducto">Chocolates fríos y Alfacoookie helado..</p>
+                        <footer class="catalogo__footer">
+                            <button class="catalogo__btn" type="button">Ordenar</button>
+                        </footer>
+                    </div>
+                </article>
+                <article class="catalogo__productoBox">
+                    <img id="productoImg" class="catalogo__productoImg" src="img/8_Elaboraciones para Fiestas.webp" alt="">
+                    <div class="catalogo__infoBox">
+                        <header class="catalogo__header">
+                            <h4 class="catalogo__h4">Elaboraciones para Fiestas</h4>
+                            <span class="catalogo__span">$9500</span>
+                        </header>
+                        <p class="catalogo__parrafoProducto">Pan dulce (½ kg), mantecol (1 kg), turrón (1 kg).</p>
+                        <footer class="catalogo__footer">
+                            <button class="catalogo__btn" type="button">Ordenar</button>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="equipo" class="equipo">
+        <article class="equipo__bienvenida">
+            <h2 class="equipo__h2">Nuestro Equipo</h2>
+            <p class="equipo__parrafoBienvenida">Estamos encantados de presentarles a nuestros talentosos profesionales que hacen posible nuestra chocolatería</p>
+        </article>
+        <div id="equipo__grid" class="equipo__grid">
+            <article class="equipo__box">
+                <section class="equipo__boxImagen">
+                    <img class="equipo__imagen" src="img/Lucas.webp" alt="" id="imgEquipoUno">
+                </section>
+                <section class="equipo__boxInformacion">
+                    <header class="equipo__header">
+                        <h2 class="equipo__h2">Lucas Ansaldi</h2>
+                        <h3 class="equipo__h3">Chef</h3>
+                    </header>
+                    <div class="equipo__main">
+                        <p class="equipo__parrafo">Como Chef y CEO, Lucas lidera con una visión estratégica que combina tradición culinaria, innovación y un enfoque riguroso en la calidad. Su pasión por la gastronomía, su habilidad para inspirar al equipo y su dedicación a la excelencia garantizan que cada creación refleje el cuidado y el detalle que representan nuestra marca. Su formación profesional y su espíritu emprendedor hacen de Lucas el pilar fundamental en el desarrollo y crecimiento de la empresa.</p>
+                        <article class="equipo__datos">
+                            <h3 class="equipo__h3">Puesto</h3>
+                            <p class="equipo__parrafoDatos">CEO</p>
+                        </article>
+                        <article class="equipo__datos">
+                            <h3 class="equipo__h3">Experiencia</h3>
+                            <p class="equipo__parrafoDatos">Más de 20 años en la gastronomía.</p>
+                        </article>
+                        <article class="equipo__datos">
+                            <h3 class="equipo__h3">Especialidades</h3>
+                            <p class="equipo__parrafoDatos">Pastelería y cocina de autor.</p>
+                        </article>
+                        <article class="equipo__datos">
+                            <h3 class="equipo__h3">Contacto</h3>
+                            <p class="equipo__parrafoDatos">lucas.ansaldi@example.com</p>
+                        </article>
+                        <article class="equipo__datos">
+                            <h3 class="equipo__h3">Redes Sociales</h3>
+                            <nav class="equipo__redes">
+                                <a class="equipo__link" id="link__instagram" href="#">
+                                    <picture>
+                                        <source srcset="img/iconos/icono-instagram-white.avif" type="image/avif">
+                                        <source srcset="img/iconos/icono-instagram-white.webp" type="image/webp">
+                                        <source srcset="img/iconos/icono-instagram-white.jpg" type="image/jpg">
+                                        <img class="equipo__redsocial-img" loading="lazy" decoding="async" src="img/iconos/icono-instagram-white.jpg" lazyalt="imagen" alt="icono instagram white" width="auto" height="auto">
+                                    </picture>
+                                </a>
+                                <a class="equipo__link" id="link__whatsapp" href="https://wa.me/5493413603168">
+                                    <picture>
+                                        <source srcset="img/iconos/icono-whatsapp-white.avif" type="image/avif">
+                                        <source srcset="img/iconos/icono-whatsapp-white.webp" type="image/webp">
+                                        <source srcset="img/iconos/icono-whatsapp-white.jpg" type="image/jpg">
+                                        <img class="equipo__redsocial-img" loading="lazy" decoding="async" src="img/iconos/icono-whatsapp-white.jpg" lazyalt="imagen" alt="icono whatsapp white" width="auto" height="auto">
+                                    </picture>
+                                </a>
+                                <a class="equipo__link" id="link__youtube" href="#">
+                                    <picture>
+                                        <source srcset="img/iconos/icono-youtube-white.avif" type="image/avif">
+                                        <source srcset="img/iconos/icono-youtube-white.webp" type="image/webp">
+                                        <source srcset="img/iconos/icono-youtube-white.jpg" type="image/jpg">
+                                        <img class="equipo__redsocial-img" loading="lazy" decoding="async" src="img/iconos/icono-youtube-white.jpg" lazyalt="imagen" alt="icono youtube white" width="auto" height="auto">
+                                    </picture>
+                                </a>
+                            </nav>
+                        </article>
+                    </div>
+                </section>
+            </article>
+            <article class="equipo__box">
+                <section class="equipo__boxImagen">
+                    <img class="equipo__imagen" src="img/Pablo.webp" alt="" id="imgEquipoUno">
+                </section>
+                <section class="equipo__boxInformacion">
+                    <header class="equipo__header">
+                        <h2 class="equipo__h2">Pablo Daniel Chavez</h2>
+                        <h3 class="equipo__h3">Desarrollador Web</h3>
+                    </header>
+                    <footer class="equipo__main">
+                        <p class="equipo__parrafo">Como CTO y desarrollador web fullstack, asumo la responsabilidad de planificar, implementar y optimizar nuestras soluciones digitales. Mi experiencia abarca desde el desarrollo de sitios web personalizados hasta la creación de plataformas complejas, siempre con el objetivo de impulsar la innovación interna y asegurar un crecimiento sostenible. Mantener un enfoque en la calidad, la colaboración interna y la mejora continua nos permitirá fortalecer nuestro posicionamiento en el entorno digital.</p>
+                        <div class="equipo__datosEnlace">
+                            <article class="equipo__datos">
+                                <h3 class="equipo__h3">Puesto</h3>
+                                <p class="equipo__parrafoDatos">CTO</p>
+                            </article>
+                            <article class="equipo__datos">
+                                <h3 class="equipo__h3">Experiencia</h3>
+                                <p class="equipo__parrafoDatos">En constante aprendizaje para mejorar habilidades.</p>
+                            </article>
+                            <article class="equipo__datos">
+                                <h3 class="equipo__h3">Especialidades</h3>
+                                <p class="equipo__parrafoDatos">Desarrollador web fullstack.</p>
+                            </article>
+                            <article class="equipo__datos">
+                                <h3 class="equipo__h3">Contacto</h3>
+                                <p class="equipo__parrafoDatos">pablo_daniel_chavez@outlook.es</p>
+                            </article>
+                            <h3 class="equipo__h3">Redes</h3>
+                            <nav class="equipo__redes">
+                                <a class="equipo__link" id="link__instagram" href="https://www.instagram.com/Pablo_grid/">
+                                    <picture>
+                                        <source srcset="img/iconos/icono-instagram-white.avif" type="image/avif">
+                                        <source srcset="img/iconos/icono-instagram-white.webp" type="image/webp">
+                                        <source srcset="img/iconos/icono-instagram-white.jpg" type="image/jpg">
+                                        <img class="equipo__redsocial-img" loading="lazy" decoding="async" src="img/iconos/icono-instagram-white.jpg" lazyalt="imagen" alt="icono instagram white" width="auto" height="auto">
+                                    </picture>
+                                </a>
+                                <a class="equipo__link" id="link__whatsapp" href="https://wa.me/5491125457659">
+                                    <picture>
+                                        <source srcset="img/iconos/icono-whatsapp-white.avif" type="image/avif">
+                                        <source srcset="img/iconos/icono-whatsapp-white.webp" type="image/webp">
+                                        <source srcset="img/iconos/icono-whatsapp-white.jpg" type="image/jpg">
+                                        <img class="equipo__redsocial-img" loading="lazy" decoding="async" src="img/iconos/icono-whatsapp-white.jpg" lazyalt="imagen" alt="icono whatsapp white" width="auto" height="auto">
+                                    </picture>
+                                </a>
+                                <a class="equipo__link" id="link__youtube" href="https://www.youtube.com/channel/UCDKL4JLgdmVmmBAJPRGx0Eg/featured">
+                                    <picture>
+                                        <source srcset="img/iconos/icono-youtube-white.avif" type="image/avif">
+                                        <source srcset="img/iconos/icono-youtube-white.webp" type="image/webp">
+                                        <source srcset="img/iconos/icono-youtube-white.jpg" type="image/jpg">
+                                        <img class="equipo__redsocial-img" loading="lazy" decoding="async" src="img/iconos/icono-youtube-white.jpg" lazyalt="imagen" alt="icono youtube white" width="auto" height="auto">
+                                    </picture>
+                                </a>
+                            </nav>
+                        </div>
+                    </footer>
+                </section>
+            </article>
+        </div>
+    </section>
+    <header id="footer" class="footer">
+        <div class="footer__grid">
+            <div class="footer__logo">
+                <img class="footer__img" src="img/logo6.png" alt="imagen">
+            </div>
+            <p class="footer__parrafo">Copyright© <a href="https://portafolio-3ss2.onrender.com" class="footer__aCopy">portafolio-3ss2.onrender.com</a> 2024. All rights reserved.</p>
+        </div>
+    </header>
+</body>
+</html>

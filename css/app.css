@@ -1,0 +1,1019 @@
+.header {
+  background-color: rgb(10, 10, 36);
+  padding: 3% 3%;
+}
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    padding: 0;
+  }
+}
+.header__grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-around;
+}
+@media (min-width: 768px) {
+  .header__grid {
+    flex-direction: row;
+    padding: 1% 0;
+  }
+}
+.header__logo {
+  width: 4rem;
+  overflow: hidden;
+  border-radius: 100%;
+  border: 6px solid rgb(35, 5, 35);
+  box-shadow: 0 0 20px 5px rgb(35, 5, 35);
+}
+.header__img {
+  width: 4rem;
+  border-radius: 100%;
+  transform: scale(1.15);
+}
+.header__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: auto;
+}
+@media (min-width: 768px) {
+  .header__nav {
+    flex-direction: row;
+    gap: 10%;
+  }
+}
+.header__btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: background 0.15s ease-in-out;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.header__btn:hover {
+  background-color: white;
+  color: darkmagenta;
+  cursor: pointer;
+}
+
+.bienvenida {
+  background-image: linear-gradient(rgba(10, 10, 36, 0.5), rgba(10, 10, 36, 0.5)), url(https://pixelz.cc/wp-content/uploads/2018/07/chocolate-candies-uhd-4k-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10% 6% 20% 6%;
+}
+.bienvenida__grid {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.bienvenida__logo {
+  width: 16rem;
+  overflow: hidden;
+  border-radius: 100%;
+  border: 6px solid rgb(35, 5, 35);
+  box-shadow: 0 0 20px 5px rgb(35, 5, 35);
+}
+.bienvenida__img {
+  width: 16rem;
+  border-radius: 100%;
+  transform: scale(1.15);
+}
+.bienvenida__h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.bienvenida__parrafo {
+  margin: auto 15%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(221, 212, 212);
+  text-align: center;
+}
+.bienvenida__btn {
+  margin-top: 2rem;
+  padding: 10% auto;
+  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-shadow: 2px 1px 4px #4a0b45;
+  transition: background 0.15s ease-in-out;
+  background-image: linear-gradient(rgba(10, 10, 36, 0.5), rgba(10, 10, 36, 0.5)), url("../../../img/bg_btn2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  box-shadow: 0 0 20px 5px rgb(35, 5, 35);
+  border: 1px solid rgb(221, 212, 212);
+  border-radius: 8px; /* Opcional: esquinas redondeadas */
+  transition: transform 0.1s ease-in-out;
+  width: auto;
+}
+.bienvenida__btn:hover {
+  background-color: white;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  .bienvenida__btn {
+    width: 6%;
+    transform: scale(2);
+  }
+  .bienvenida__btn:hover {
+    transform: scale(2.04);
+  }
+}
+
+.sobreMi {
+  background-color: transparent;
+  width: 100%;
+  position: relative;
+  margin: -3rem auto -3rem auto;
+}
+.sobreMi__grid {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: flex-start;
+  border-radius: 1rem;
+  width: 86%;
+  padding: 4%;
+  margin: 0 auto;
+  gap: 1rem;
+  z-index: 1;
+}
+@media (min-width: 600px) {
+  .sobreMi__grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+.sobreMi__boxImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 60%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  border-radius: 8px; /* Opcional para suavizar bordes */
+}
+.sobreMi__img {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+  border-radius: 10px;
+}
+.sobreMi__box-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 600px) {
+  .sobreMi__box-flex {
+    font-size: 3.6rem;
+    align-items: flex-start;
+  }
+}
+.sobreMi__h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  color: darkmagenta;
+}
+@media (min-width: 600px) {
+  .sobreMi__h2 {
+    font-size: 3.6rem;
+  }
+}
+.sobreMi__h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: rgb(35, 5, 35);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+.sobreMi__parrafo {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0rem auto 1rem;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.catalogo {
+  background-image: linear-gradient(rgba(10, 10, 36, 0.5), rgba(10, 10, 36, 0.9), rgba(10, 10, 36, 0.9)), url(/img/fondo_catalogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3% 0;
+}
+.catalogo__flexPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14%;
+  padding: 14.5% 5%;
+}
+@media (min-width: 600px) {
+  .catalogo__flexPrincipal {
+    padding: 7.5% 5%;
+    margin: 0;
+  }
+}
+.catalogo__bienvenida {
+  width: 90%;
+  margin: 0 auto 5% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 600px) {
+  .catalogo__bienvenida {
+    width: 60%;
+  }
+}
+.catalogo__h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-transform: capitalize;
+  font-size: 3.6rem;
+}
+.catalogo__h2.titulo {
+  margin: 0;
+}
+.catalogo__h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: rgb(208, 132, 208);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+.catalogo__parrafo {
+  width: 100%;
+  margin: 0rem auto 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(221, 212, 212);
+  text-align: center;
+}
+@media (min-width: 600px) {
+  .catalogo__parrafo {
+    width: 80%;
+    text-align: center;
+  }
+}
+.catalogo__grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 1rem auto;
+  gap: 2rem;
+}
+@media (min-width: 768px) {
+  .catalogo__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.catalogo__productoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  height: 90%;
+  max-height: 90%;
+  border-left: 4px solid white;
+  background-color: #fafafa;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  transition: border 0.3s ease-in-out;
+}
+.catalogo__productoBox:hover {
+  border-left-color: rgb(255, 175, 255);
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .catalogo__productoBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+  }
+}
+.catalogo__productoImg {
+  width: 100%;
+  height: 100%;
+}
+.catalogo__infoBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  .catalogo__infoBox {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+}
+.catalogo__header {
+  margin-top: 0;
+  margin-bottom: auto;
+  width: 80%;
+  padding: 0 0.2rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2%;
+}
+@media (min-width: 768px) {
+  .catalogo__header {
+    flex-direction: row;
+  }
+}
+.catalogo__h4 {
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  .catalogo__h4 {
+    flex-direction: row;
+    font-size: 1rem;
+  }
+}
+.catalogo__span {
+  color: darkmagenta;
+}
+.catalogo__footer {
+  margin-top: auto;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+.catalogo__parrafoProducto {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(221, 212, 212);
+  text-align: center;
+  width: 80%;
+  font-size: 0.8rem;
+  margin: 0 auto;
+  color: rgb(102, 100, 100);
+}
+@media (min-width: 768px) {
+  .catalogo__parrafoProducto {
+    flex-direction: row;
+    font-size: 1rem;
+  }
+}
+.catalogo__btn {
+  padding: 0.6rem 10%;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  min-width: 60%;
+  width: 60%;
+  background-color: darkmagenta;
+  color: white;
+  border: 1px solid darkmagenta;
+  transition-property: background, color, border;
+  transition-duration: 0.3s;
+}
+.catalogo__btn:hover {
+  background-color: darkmagenta;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  .catalogo__btn {
+    font-size: 1rem;
+  }
+}
+
+.equipo {
+  padding: 10% auto;
+  height: 100%;
+  position: relative;
+  margin: 4% auto 4% auto;
+  border-radius: 1rem;
+}
+.equipo__bienvenida {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto 1rem auto;
+}
+.equipo__grid {
+  left: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  margin: 10% 0%;
+}
+.equipo__parrafoBienvenida {
+  text-align: center;
+}
+.equipo__box {
+  padding: 3rem 1rem;
+  background-image: linear-gradient(rgba(10, 10, 36, 0.811), rgba(10, 10, 36, 0.9), rgba(10, 10, 36, 0.5)), url(/img/fondo_equipo1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 25%;
+  margin: 0 auto;
+  gap: 5%;
+}
+@media (min-width: 600px) {
+  .equipo__box {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    box-shadow: 0 0 20px 5px rgb(35, 5, 35);
+    border: 2px solid rgb(35, 5, 35);
+    border-radius: 10px; /* Opcional: esquinas redondeadas */
+  }
+}
+.equipo__boxImagen {
+  width: 100%;
+  overflow: hidden;
+}
+.equipo__imagen {
+  width: 80%;
+  border-radius: 10px;
+  margin: 0 10%;
+}
+.equipo__boxInformacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  gap: 1rem;
+}
+@media (min-width: 600px) {
+  .equipo__boxInformacion {
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+.equipo__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: max-content;
+}
+@media (min-width: 600px) {
+  .equipo__header {
+    align-items: flex-start;
+  }
+}
+.equipo__h2 {
+  color: rgb(147, 11, 147);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  text-align: center;
+  font-style: normal;
+  text-transform: uppercase;
+  min-height: max-content;
+  margin: 0 auto;
+}
+@media (min-width: 600px) {
+  .equipo__h2 {
+    font-size: 3.6rem;
+  }
+}
+.equipo__h3 {
+  color: #977e97;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media (min-width: 600px) {
+  .equipo__h3 {
+    font-size: 1.6rem;
+  }
+}
+.equipo__main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+@media (min-width: 600px) {
+  .equipo__main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+.equipo__parrafo {
+  width: auto;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+}
+.equipo__parrafoDatos {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+}
+@media (min-width: 600px) {
+  .equipo__parrafoDatos {
+    color: white;
+    text-align: start;
+    margin-left: 1rem;
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 600px) {
+  .equipo__parrafo {
+    margin: 0rem 2rem 1rem 1rem;
+    font-size: 1.6rem;
+  }
+}
+.equipo__datosEnlace {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+@media (min-width: 600px) {
+  .equipo__datosEnlace {
+    width: 100%;
+  }
+}
+.equipo__datos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 5%;
+}
+@media (min-width: 600px) {
+  .equipo__datos {
+    margin: 0;
+    align-items: flex-start;
+  }
+}
+.equipo__redes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 1rem;
+  gap: 1rem;
+}
+.equipo__redsocial-img {
+  width: 1.2rem;
+}
+.equipo__contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.equipo__contactoBox {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 200, "opsz" 20;
+}
+
+.footer {
+  background-color: rgb(10, 10, 36);
+  padding: 3% 3%;
+}
+.footer__grid {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (min-width: 600px) {
+  .footer__grid {
+    flex-direction: row;
+  }
+}
+.footer__logo {
+  overflow: hidden;
+  border-radius: 100%;
+  border: 6px solid rgb(35, 5, 35);
+  box-shadow: 0 0 20px 5px rgb(35, 5, 35);
+}
+.footer__img {
+  width: 8rem;
+  border-radius: 100%;
+  transform: scale(1.2);
+}
+@media (min-width: 600px) {
+  .footer__img {
+    width: 16rem;
+  }
+}
+.footer__parrafo {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.footer__aCopy {
+  color: darkmagenta;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/*# sourceMappingURL=app.css.map */
