@@ -528,9 +528,11 @@
   flex-direction: column;
   align-items: center;
   min-height: max-content;
+  padding: 2rem;
 }
 @media (min-width: 600px) {
   .equipo__header {
+    padding: 0;
     align-items: flex-start;
   }
 }
